@@ -92,5 +92,6 @@ Xdebug is installed by default for performance reasons.
   MODX_ADMIN_EMAIL     MODX manager admin email          admin@example.com
 
   MODX_HTTP_HOST       Hostname used for MODX config     localhost
+  
   --------------------------------------------------------------------------
 
