@@ -12,11 +12,9 @@ The image provides a fully automated MODX development environment inside a singl
 
 - Automatic MariaDB initialization and user/database creation  
 - Automatic MODX installation on first startup  
-- Works on ARM and AMD64  
 - Xdebug installed  
 - Supports custom PHP and MODX versions  
 - Fully reproducible and self-contained development environment  
-- Can be published to GitHub Container Registry (GHCR)
 
 ---
 
@@ -52,7 +50,7 @@ http://localhost:8080/
 During the first run, the container will:
 1.	Initialize MariaDB
 2.	Create the MODX database and user
-3.	Build the MODX transport package (if using Git source)
+3.	Build the MODX transport package
 4.	Install MODX via the CLI installer
 
 ## Using This Image in Your MODX Extra Repository
