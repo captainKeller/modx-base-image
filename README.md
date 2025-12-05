@@ -1,5 +1,5 @@
 # MODX Base Docker Image  
-**For development use only**
+⚠️ **For development use only** ⚠️
 
 This Docker image is intended exclusively for local development, such as building and testing MODX Extras.  
 It is **not** designed, optimized, or secured for production use.
