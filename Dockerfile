@@ -5,7 +5,14 @@ LABEL org.opencontainers.image.title="MODX Base Image" \
       org.opencontainers.image.description="A MODX development base image with Apache, PHP, MariaDB, Xdebug and automatic install." \
       org.opencontainers.image.source="https://github.com/captainKeller/modx-base-image" \
       org.opencontainers.image.documentation="https://github.com/captainKeller/modx-base-image/README.md" \
-      org.opencontainers.image.licenses="GPL-2.0 license"
+      org.opencontainers.image.licenses="GPL-2.0 license" \
+      org.opencontainers.image.support="https://github.com/captainKeller/modx-base-image/issues" \
+      org.opencontainers.image.bugs="https://github.com/captainKeller/modx-base-image/issues" \
+      org.opencontainers.image.role="modx-environment" \
+      org.opencontainers.image.feature="auto-install-modx" \
+      org.opencontainers.image.component.apache="enabled" \
+      org.opencontainers.image.component.mariadb="embedded" \
+      org.opencontainers.image.component.xdebug="enabled"
 
 ARG MODX_VERSION=3.x
 
