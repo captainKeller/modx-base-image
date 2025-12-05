@@ -1,5 +1,3 @@
-<a href="https://www.buymeacoffee.com/captainKeller" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
 # MODX Base Docker Image  
 **For development use only**
 
@@ -83,3 +81,7 @@ This mounts your component files into a running MODX instance for development.
 | `MODX_ADMIN_PASS`  | MODX manager admin password   | `admin12345`        |
 | `MODX_ADMIN_EMAIL` | MODX manager admin email      | `admin@example.com` |
 | `MODX_HTTP_HOST`   | Hostname used for MODX config | `localhost`         |
+
+---
+
+<a href="https://www.buymeacoffee.com/captainKeller" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
